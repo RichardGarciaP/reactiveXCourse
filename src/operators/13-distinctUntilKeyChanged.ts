@@ -1,5 +1,5 @@
 import { from, of } from 'rxjs';
-import { distinctUntilChanged, distinctUntilKeyChanged } from 'rxjs/operators';
+import { distinctUntilKeyChanged } from 'rxjs/operators';
 
 interface Personaje {
   nombre: string;
